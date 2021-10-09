@@ -1,0 +1,109 @@
+header {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .1rem solid grey;
+}
+header > .geral1 > figure > .logo-img {
+  margin-right: 4rem;
+}
+header > nav,
+header > .geral1 > nav > ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.fig-pic {
+  margin-left: 4.5rem;
+}
+.profile-pic {
+  border-radius: 50%;
+}
+.profile-pic:hover {
+  box-shadow: 0 0 0 .4rem orangered;
+}
+.links-bar > ul > li > a {
+  color: black;
+  padding-bottom: 4.4rem;
+}
+.links-bar > ul > li > a:hover {
+  border-bottom: .4rem solid orangered;
+}
+.geral-product {
+  padding: 0 6rem;
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+}
+.gallery > figure >.main-img {
+  width: 86%;
+  border-radius: .8rem;
+}
+.gallery-items {
+  margin-top: 2.85rem;
+}
+.gallery-items > img {
+  width: 16.5%;
+  border-radius: .8rem;
+  cursor: pointer;
+}
+.gallery-items > img:hover {
+  opacity: .6;
+}
+.gallery-items > img:nth-child(1),
+.gallery-items > img:nth-child(2),
+.gallery-items > img:nth-child(3) {
+  margin-right: 2.58rem;
+}
+
+.text-description > .title {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.text-description > h1 {
+  font-size: 4rem;
+  margin-bottom: 3.4rem;
+  margin-top: 1.8rem;
+}
+.desc-p {
+  width: 48rem;
+  margin-bottom: 3rem;
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 2.8rem;
+}
+.price > mark {
+  background-color: orange;
+  color: orangered;
+  font-size: 1.6rem;
+  padding: .2rem  1rem;
+  border-radius: .4rem;
+  margin-left: 2rem;
+}
+.original-price {
+  font-weight: bold;
+  color: gray;
+  text-decoration: line-through;
+}
+form {
+  display: flex;
+}
+.cart-add-btn {
+  background-color: lightgray;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.6rem;
+}
+.plus-btn {
+  margin-right: 2rem;
+}
+button, input {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold;display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
